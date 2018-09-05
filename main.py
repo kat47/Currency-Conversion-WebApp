@@ -31,4 +31,4 @@ def convert(conv):
     #print(f"{conv} {from_cur} = {final} {to_cur}")
 
 if __name__ == '__main__':
-   app.run()
+   app.run(host='127.0.0.1',port=8080, debug=True)
