@@ -12,7 +12,7 @@ def result():
       result = request.form["USD"]
       result = float(result)
       val = convert(result)
-      return render_template("result.html",res1 = val,res2=result)
+      return render_template("ui.html",res1 = val,res2=result)
 
 
 def convert(conv):
