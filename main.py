@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def student():
-   return render_template('student.html')
+   return render_template('ui.html')
 
 @app.route('/result',methods = ['POST', 'GET'])
 def result():
