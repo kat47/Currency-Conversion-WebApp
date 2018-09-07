@@ -18,6 +18,11 @@
          <p>  <input type = "submit" class="btn btn-primary" value = "Get Value" /></p>
       </form>
     </div> 
+      <div>
+        {%if res2!=null and res1!=null%}
+        <h2>$ {{res2}} = ₹ {{res1}}   </h2>
+        {%endif%}
+    </div>
     </div>  
    </body>
 </html>
